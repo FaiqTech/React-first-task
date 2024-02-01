@@ -1,0 +1,25 @@
+.footer {
+  background-color: #fff;
+}
+.footer__col {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__col-list {
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer__col-list-icon {
+  a {
+    text-decoration: none;
+    margin: 0 15px;
+  }
+}
+.footer__col-list-item {
+  list-style-type: none;
+}
+.footer__col-list-item-link {
+  color: black;
+}

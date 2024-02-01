@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.logo {
+  .logo-element {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+
+.nav {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+    li {
+      cursor: pointer;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

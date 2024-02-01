@@ -1,0 +1,15 @@
+/* Main.css */
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section {
+  width: 50%;
+}
+.section-element {
+  width: 100%;
+  height: 70vh;
+}
